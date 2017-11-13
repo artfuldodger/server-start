@@ -9,6 +9,7 @@ It currently should work with:
 - Middleman
 - Phoenix
 - Ionic
+- Yarn
 
 ## Installation
 

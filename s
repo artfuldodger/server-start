@@ -12,6 +12,8 @@ elif [ -f Gemfile ]; then
   else
     rails s $*
   fi
+elif [ -f yarn.lock ]; then
+  yarn start
 else
   echo "Don't know what server to start. :("
   exit 1
